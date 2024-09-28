@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscriptions - Le Petit</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Inscriptions</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">accueil</a></li>
+                <li><a href="/index2.html">activités</a></li>
+                <li><a href="/index3.html">horaires</a></li>
+                <li><a href="/index4.html">inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2> Données de connexion</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
+        </form>
+        
+        <h2> Informations sur les parents</h2>
+        <form>
+            <label for="father-name">Nom et prénom du père:</label>
+            <input type="text" id="father-name" name="father-name" required>
+            <label for="mother-name">Nom et prénom de la mère:</label>
+            <input type="text" id="mother-name" name="mother-name" required>
+            <label for="tel">N°tel:</label>
+            <input type="tel" id="tel" name="tel" required>
+            <label for="address">Adresse:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="family-status">Situation familiale:</label>
+            <select id="family-status" name="family-status">
+                <option value="married">Marié</option>
+                <option value="divorced">Divorcé</option>
+                <option value="widowed">Veuf</option>
+            </select>
+        </form>
+        
+        <h2> Informations sur l'enfant</h2>
+        <form>
+            <label for="gender">Genre:</label>
+            <select id="gender" name="gender">
+                <option value="girl">Fille</option>
+                <option value="boy">Garçon</option>
+            </select>
+            <label for="child-name">Prénom de l'enfant:</label>
+            <input type="text" id="child-name" name="child-name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="special-case">Cas particulier:</label>
+            <input type="text" id="special-case" name="special-case">
+        </form>
+        
+        <button type="submit">Envoyer</button>
+        <button type="button">Annuler</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Le Petit - All rights reserved.</p>
+    </footer>
+</body>
+</html>
